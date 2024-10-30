@@ -1,3 +1,6 @@
+/* Script para crear la tabla de los Roles, con una estructura sólida  para gestionar 
+roles en el contexto del sistema de permisos*/
+
 CREATE TABLE Role (
     -- Primary Key
     id_role BIGINT IDENTITY(1,1) PRIMARY KEY,                 -- Identificador único para el rol

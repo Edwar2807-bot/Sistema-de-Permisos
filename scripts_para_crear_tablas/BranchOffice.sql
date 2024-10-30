@@ -1,3 +1,4 @@
+--Creación de la tabla para la sucursal (Branch Office)
 CREATE TABLE BranchOffice (
     -- Primary Key
     id_broff BIGINT IDENTITY(1,1) PRIMARY KEY,                -- Identificador único para la sucursal

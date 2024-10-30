@@ -1,3 +1,5 @@
+--script para crear la tabla Centro de Costos (Cost Center)
+
 CREATE TABLE CostCenter (
     -- Primary Key
     id_cosce BIGINT IDENTITY(1,1) PRIMARY KEY,                -- Identificador único para el centro de costo

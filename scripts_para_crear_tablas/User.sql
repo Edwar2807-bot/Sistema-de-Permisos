@@ -1,3 +1,7 @@
+/*Script para crear la tabla de los usuarios, contiene campos para gestionar la autenticación 
+y el control de acceso, además de restricciones únicas para el nombre de usuario y el correo electrónico, 
+lo que es esencial para asegurar que cada usuario tenga un identificador único en esos aspectos.*/
+
 CREATE TABLE [User] (
     -- Primary Key
     id_user BIGINT IDENTITY(1,1) PRIMARY KEY,                 -- Identificador único para el usuario

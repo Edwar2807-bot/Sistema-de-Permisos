@@ -1,3 +1,5 @@
+--Script para crear la tabla UserCompany, diseñada para gestionar la relación entre los usuarios y las compañías
+
 CREATE TABLE UserCompany (
     -- Primary Key
     id_useco BIGINT IDENTITY(1,1) PRIMARY KEY,                -- Identificador único para la relación usuario-compañía

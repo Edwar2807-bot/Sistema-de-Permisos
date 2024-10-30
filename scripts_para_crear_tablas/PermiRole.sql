@@ -1,3 +1,5 @@
+--Script para crear la tabla PermiRole, diseñada para gestionar los permisos asignados a los roles en el sistema.
+
 CREATE TABLE PermiRole (
     -- Primary Key
     id_perol BIGINT IDENTITY(1,1) PRIMARY KEY,                -- Identificador único para el permiso de rol

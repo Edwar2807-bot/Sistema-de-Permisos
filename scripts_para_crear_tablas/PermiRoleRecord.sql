@@ -1,3 +1,6 @@
+/*Script para crear la tabla PermiRoleRecord, diseñada para gestionar los permisos a nivel de registro específico
+asignados a los roles*/
+
 CREATE TABLE PermiRoleRecord (
     -- Primary Key
     id_perrc BIGINT IDENTITY(1,1) PRIMARY KEY,                -- Identificador único para el permiso de rol por registro

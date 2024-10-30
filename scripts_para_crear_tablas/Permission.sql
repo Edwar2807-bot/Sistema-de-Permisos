@@ -1,3 +1,5 @@
+--Script para crear la tabla de permisos, estructurada para gestionar los permisos dentro del sistema
+
 CREATE TABLE Permission (
     -- Primary Key
     id_permi BIGINT IDENTITY(1,1) PRIMARY KEY,                -- Identificador único para el permiso

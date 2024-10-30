@@ -1,3 +1,6 @@
+/*Script para crear la tabla PermiUserRecord, estructurada para gestionar los permisos a nivel
+de registro específico asignados a los usuarios*/
+
 CREATE TABLE PermiUserRecord (
     -- Primary Key
     id_peusr BIGINT IDENTITY(1,1) PRIMARY KEY,                -- Identificador único para el permiso de usuario

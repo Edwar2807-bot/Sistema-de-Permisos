@@ -1,3 +1,6 @@
+/*Script para crear la tabla de las compañias, contiene los campos esenciales para gestionar la información de la compañía,
+permitiendo mantener un registro completo y detallado */
+
 CREATE TABLE Company (
     -- Primary Key
     id_compa BIGINT IDENTITY(1,1) PRIMARY KEY,                -- Identificador único para la compañía

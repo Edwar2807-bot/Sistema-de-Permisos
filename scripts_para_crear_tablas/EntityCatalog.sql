@@ -1,3 +1,5 @@
+--Script para crear la tabla EntityCatalog, fundamental para gestionar los distintos elementos o entidades dentro del sistema
+
 CREATE TABLE EntityCatalog (
     -- Primary Key
     id_entit INT IDENTITY(1,1) PRIMARY KEY,                    -- Identificador único para el elemento del catálogo de entidades

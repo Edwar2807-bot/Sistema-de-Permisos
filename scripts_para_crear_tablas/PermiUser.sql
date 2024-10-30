@@ -1,3 +1,5 @@
+--Script para crear la tabla PermiUser, estructurada para gestionar los permisos asignados a los usuarios dentro del sistema.
+
 CREATE TABLE PermiUser (
     -- Primary Key
     id_peusr BIGINT IDENTITY(1,1) PRIMARY KEY,                -- Identificador único para el permiso de usuario
